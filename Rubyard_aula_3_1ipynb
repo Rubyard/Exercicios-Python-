@@ -1,0 +1,57 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "name": "Untitled8.ipynb",
+      "provenance": [],
+      "authorship_tag": "ABX9TyPM68HHkD8P6G+aRav2EQal",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/Rubyard/Exercicios-Python-/blob/master/Rubyard_aula_3_1ipynb\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "id": "Y6U_VJLcLhNI",
+        "outputId": "c9f5c480-9822-4b06-f121-15f08fb390be",
+        "colab": {
+          "base_uri": "https://localhost:8080/",
+          "height": 34
+        }
+      },
+      "source": [
+        "import math\n",
+        "hipotenusa=5\n",
+        "cateto_adjacente=3\n",
+        "cos_theta=cateto_adjacente/hipotenusa\n",
+        "theta=math.acos(cos_theta)\n",
+        "print(theta, 'em radianos')"
+      ],
+      "execution_count": 4,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "text": [
+            "0.9272952180016123 em radianos\n"
+          ],
+          "name": "stdout"
+        }
+      ]
+    }
+  ]
+}
